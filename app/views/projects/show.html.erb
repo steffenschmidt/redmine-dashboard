@@ -64,7 +64,7 @@
 </div>
 
 <div class="splitcontentright">
-  <%= render :partial => 'members_box' if User.current.allowed_to?(:members, @project) %>
+  <%= render :partial => 'members_box' if User.current.allowed_to?(:show_members, @project) %>
 
   <% if @news.any? && authorize_for('news', 'index') %>
   <div class="news box">

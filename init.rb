@@ -7,5 +7,5 @@ Redmine::Plugin.register :dashboard do
   author_url 'https://github.com/steffenschmidt'
 
   # Permissions
-  permission :members, :dashboard => :members
+  permission :show_members, :require => :loggedin
 end
