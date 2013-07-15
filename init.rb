@@ -5,4 +5,7 @@ Redmine::Plugin.register :dashboard do
   version '0.1'
   url 'https://github.com/steffenschmidt/redmine-dashboard'
   author_url 'https://github.com/steffenschmidt'
+
+  # Permissions
+  permission :members, :dashboard => :members
 end
