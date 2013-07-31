@@ -16,7 +16,7 @@ To install the plugin, execute the following commands from the root of your Redm
 
 ```
 cd plugins
-git clone git@github.com:steffenschmidt/redmine-dashboard.git
+git clone git@github.com:steffenschmidt/redmine-dashboard.git dashboard
 ```
 
 More information on installing Redmine plugins can be found at [redmine.org](http://www.redmine.org/wiki/redmine/Plugins.).
